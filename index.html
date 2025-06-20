@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEO 경영인 정기보험 활용 퇴직금 마련 전략 </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .flow-arrow {
+            content: '→';
+            color: #007BFF;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center my-8 md:my-16">
+            <h1 class="text-4xl md:text-5xl font-black text-[#004AAD] mb-4">CEO 정기보험을 활용한 퇴직금 재원 마련</h1>
+            <p class="text-xl md:text-2xl text-[#007BFF]">중소기업 대표님을 위한 현명한 재무 전략 인포그래픽</p>
+        </header>
+
+        <main class="space-y-16 md:space-y-24">
+            
+            <section id="problem" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">대표님, 혹시 이런 고민 하고 계신가요?</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">많은 중소기업이 퇴직금 재원 마련에 어려움을 겪고 있습니다. 이는 단순한 자금 문제를 넘어, 기업과 대표님 모두에게 중대한 리스크가 될 수 있습니다.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300">
+                        <div class="text-6xl mb-4 text-[#007BFF]">⚠️</div>
+                        <h3 class="text-2xl font-bold mb-2">재원 적립의 어려움</h3>
+                        <p>사업 운영만으로도 벅찬데, 거액의 퇴직금을 별도로 꾸준히 적립하기란 현실적으로 쉽지 않습니다.</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300">
+                        <div class="text-6xl mb-4 text-[#007BFF]">💰</div>
+                        <h3 class="text-2xl font-bold mb-2">일시금 지급 부담</h3>
+                        <p>퇴직 시점에 갑자기 큰 현금을 지출해야 하므로, 기업의 재무 유동성에 심각한 타격을 줄 수 있습니다.</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow duration-300">
+                        <div class="text-6xl mb-4 text-[#007BFF]">📉</div>
+                        <h3 class="text-2xl font-bold mb-2">CEO 퇴직 리스크</h3>
+                        <p>충분한 퇴직금이 없다면, 대표님의 안정적인 노후 계획은 물론 기업의 비상 경영 자금 확보도 어려워집니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="page-break"></div>
+
+            <section id="solution-structure" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">해결의 열쇠: CEO 정기보험</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">CEO 정기보험은 이러한 문제들을 해결하는 스마트한 솔루션입니다. 법인이 계약의 주체가 되어 안정적으로 퇴직금을 준비하고, 동시에 세금 혜택까지 누릴 수 있습니다.</p>
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-2xl font-bold text-center mb-6">CEO 정기보험 가입 구조</h3>
+                    <div class="flex flex-col md:flex-row items-center justify-around space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="text-center p-4 bg-blue-100 rounded-lg w-full md:w-1/4">
+                            <p class="text-lg font-semibold">계약자 & 수익자</p>
+                            <p class="text-3xl font-bold text-[#004AAD]">법인</p>
+                            <p class="text-sm mt-1">(보험료 납입 주체)</p>
+                        </div>
+                        <div class="flow-arrow hidden md:block">→</div>
+                        <div class="text-center p-4 bg-blue-100 rounded-lg w-full md:w-1/4">
+                            <p class="text-lg font-semibold">피보험자</p>
+                            <p class="text-3xl font-bold text-[#004AAD]">CEO</p>
+                            <p class="text-sm mt-1">(보장의 대상)</p>
+                        </div>
+                        <div class="flow-arrow hidden md:block">→</div>
+                        <div class="text-center p-4 bg-blue-100 rounded-lg w-full md:w-1/4">
+                            <p class="text-lg font-semibold">보험금</p>
+                            <p class="text-3xl font-bold text-[#004AAD]">퇴직금 재원</p>
+                            <p class="text-sm mt-1">(법인으로 귀속 후 지급)</p>
+                        </div>
+                    </div>
+                    <p class="text-center mt-6 text-gray-600">법인이 계약자이자 수익자가 되어 보험을 운용하고, CEO는 피보험자로서 보장을 받습니다. 퇴직 시 해지환급금 또는 사망보험금이 법인으로 귀속되어 퇴직금 재원으로 활용됩니다.</p>
+                </div>
+            </section>
+
+            <div class="page-break"></div>
+
+            <section id="process" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">어떻게 작동하나요?</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">CEO 정기보험을 활용한 퇴직금 마련 과정은 명확하고 체계적입니다. 아래 4단계 프로세스를 통해 안정적인 미래를 준비할 수 있습니다.</p>
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <ol class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                        <li class="flex flex-col items-center">
+                            <div class="flex items-center justify-center w-16 h-16 bg-[#007BFF] text-white text-2xl font-bold rounded-full mb-4">1</div>
+                            <h4 class="text-xl font-bold mb-2">보험 가입 및 납입</h4>
+                            <p>법인이 CEO를 피보험자로 하여 정기보험에 가입하고, 보험료를 꾸준히 납입합니다. (납입 보험료는 비용 처리)</p>
+                        </li>
+                        <li class="flex flex-col items-center">
+                            <div class="flex items-center justify-center w-16 h-16 bg-[#007BFF] text-white text-2xl font-bold rounded-full mb-4">2</div>
+                            <h4 class="text-xl font-bold mb-2">CEO 퇴직 시점</h4>
+                            <p>정관에 따라 CEO의 퇴직이 결정되는 시점이 도래합니다.</p>
+                        </li>
+                        <li class="flex flex-col items-center">
+                            <div class="flex items-center justify-center w-16 h-16 bg-[#007BFF] text-white text-2xl font-bold rounded-full mb-4">3</div>
+                            <h4 class="text-xl font-bold mb-2">보험금 수령</h4>
+                            <p>법인은 보험을 해지하여 '해지환급금'을 수령하거나, 만약의 경우 '사망보험금'을 수령합니다.</p>
+                        </li>
+                        <li class="flex flex-col items-center">
+                            <div class="flex items-center justify-center w-16 h-16 bg-[#007BFF] text-white text-2xl font-bold rounded-full mb-4">4</div>
+                            <h4 class="text-xl font-bold mb-2">퇴직금 지급</h4>
+                            <p>법인에 귀속된 보험금을 재원으로 하여 CEO에게 정해진 퇴직금을 지급합니다.</p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            
+            <div class="page-break"></div>
+
+            <section id="benefits" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">핵심 기대 효과</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">CEO 정기보험은 단순한 퇴직금 마련 수단을 넘어, 기업과 CEO 모두에게 긍정적인 효과를 가져다주는 다목적 금융 전략입니다.</p>
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div class="chart-container">
+                            <canvas id="benefitsChart"></canvas>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">종합적인 재무 솔루션</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <span class="text-green-500 font-bold mr-2">✔</span>
+                                    <div><strong class="text-[#004AAD]">안정적인 퇴직 재원 확보:</strong> 매월 보험료 납부를 통해 미래의 목돈 부담을 분산시키고, 계획적으로 퇴직금을 준비할 수 있습니다.</div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-green-500 font-bold mr-2">✔</span>
+                                    <div><strong class="text-[#004AAD]">법인세 절감 효과:</strong> 납입하는 보험료는 손비 처리가 가능하여 법인의 세금 부담을 합법적으로 줄일 수 있습니다.</div>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-green-500 font-bold mr-2">✔</span>
+                                    <div><strong class="text-[#004AAD]">기업 재무 안정성 강화:</strong> CEO 유고 시 발생하는 사망보험금은 긴급 경영 자금이나 유가족 보상 재원으로 활용하여 기업의 위기를 극복하는 데 도움을 줍니다.</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="page-break"></div>
+
+            <section id="conclusion" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">이제, 대표님의 안정된 미래를 준비할 시간입니다.</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">CEO 정기보험은 복잡한 세무, 법률 문제와 연결되어 있습니다. 성공적인 전략 실행을 위해 지금 바로 전문가와 상담하여 대표님과 회사에 가장 적합한 플랜을 설계해 보시기 바랍니다.</p>
+                <div class="text-center">
+                    <a href="https://open.kakao.com/o/s15lHyCh" target="_blank">
+                        <button class="bg-[#007BFF] text-white font-bold py-3 px-8 rounded-full hover:bg-[#0056b3] transition-colors text-xl">
+                            전문가 상담 신청하기
+                        </button>
+                    </a>
+                </div>
+            </section>
+
+            <section id="conclusion" class="px-4 md:px-0">
+                <h2 class="text-4xl font-black text-[#004AAD] text-center mb-4">지금, 바로 시작하세요!.</h2>
+                <p class="text-lg text-[#0062C8] text-center max-w-2xl mx-auto mb-8">삼성생명 GFC 사업부(법인)은 전문적인 컨설팅으로 최적의 솔루션을 제공합니다.</p>
+                <div class="text-center">
+                    <a href="https://mss.samsunglife.com/static/profile/digitprofile.jsp?userEno=0009618628&sno=22908091605202" target="_blank">
+                        <button class="bg-[#007BFF] text-white font-bold py-3 px-8 rounded-full hover:bg-[#0056b3] transition-colors text-xl">
+                            디지털 프로필 보기
+                        </button>
+                    </a>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+
+    <script>
+        const benefitsChartCtx = document.getElementById('benefitsChart').getContext('2d');
+        new Chart(benefitsChartCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['안정적 퇴직 재원 확보', '법인세 절감 효과', '기업 재무 안정성 강화'],
+                datasets: [{
+                    label: '기대 효과',
+                    data: [50, 30, 20],
+                    backgroundColor: [
+                        '#007BFF',
+                        '#4DA3FF',
+                        '#004AAD'
+                    ],
+                    borderColor: '#ffffff',
+                    borderWidth: 4,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '60%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 14,
+                                family: "'Noto Sans KR', sans-serif"
+                            },
+                            padding: 20
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                const item = tooltipItems[0];
+                                let label = item.chart.data.labels[item.dataIndex];
+                                if (Array.isArray(label)) {
+                                  return label.join(' ');
+                                } else {
+                                  return label;
+                                }
+                            },
+                            label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed !== null) {
+                                    label += context.parsed + '%';
+                                }
+                                return label;
+                            }
+                        },
+                        titleFont: {
+                           size: 16,
+                           family: "'Noto Sans KR', sans-serif"
+                        },
+                        bodyFont: {
+                           size: 14,
+                           family: "'Noto Sans KR', sans-serif"
+                        },
+                        padding: 10,
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleColor: '#ffffff',
+                        bodyColor: '#ffffff'
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
